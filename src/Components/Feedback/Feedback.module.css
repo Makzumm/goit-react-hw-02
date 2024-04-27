@@ -1,0 +1,12 @@
+.feedbackList {
+    margin-bottom: 20px;
+}
+
+.feedbackListItem {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.feedbackListItem:nth-child(3) {
+    margin-bottom: 0;
+}
