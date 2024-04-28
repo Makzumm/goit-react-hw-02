@@ -53,9 +53,7 @@ function App() {
           <Feedback reviews={reviews} />
           <PositiveFeedback positiveFeedbackFormula={positiveFeedbackFormula} />
         </>
-      ) : (
-        <Notification />
-      )}
+      ) : (<Notification />)}
     </>
   )
 }
