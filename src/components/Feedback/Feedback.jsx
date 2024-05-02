@@ -10,7 +10,7 @@ function Feedback({ reviews, totalFeedback, positiveFeedbackFormula }) {
                     </li>
                 ))}
                 <li className={css.feedbackListItem}>Total: {totalFeedback}</li>
-                <li className={`${css.feedbackListItem} ${css.positiveFeedbackTxt}`}>Positive: {positiveFeedbackFormula}</li>
+                <li className={`${css.feedbackListItem} ${css.positiveFeedbackTxt}`}>Positive: {positiveFeedbackFormula}%</li>
             </ul >
         </>
     );
