@@ -1,4 +1,5 @@
 .feedbackList {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -7,6 +8,11 @@
     font-size: 20px;
 }
 
-.feedbackListItem:nth-child(3) {
+.feedbackListItem:nth-child(5) {
     margin-bottom: 0;
+}
+
+.positiveFeedbackTxt {
+    font-size: 24px;
+    color: green;
 }

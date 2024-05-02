@@ -3,7 +3,6 @@ import Description from '../Description/Description';
 import Options from '../Options/Options';
 import Feedback from '../Feedback/Feedback';
 import Notification from '../Notification/Notification';
-import PositiveFeedback from '../PositiveFeedback/PositiveFeedback';
 
 function App() {
   const [reviews, setReviews] = useState(() => {
@@ -50,8 +49,7 @@ function App() {
       <Options updateFeedback={updateFeedback} totalFeedback={totalFeedback} clearFeedback={clearFeedback} />
       {totalFeedback > 0 ? (
         <>
-          <Feedback reviews={reviews} />
-          <PositiveFeedback positiveFeedbackFormula={positiveFeedbackFormula} />
+          <Feedback reviews={reviews} totalFeedback={totalFeedback} positiveFeedbackFormula={positiveFeedbackFormula} />
         </>
       ) : (
         <Notification />
